@@ -176,7 +176,7 @@ def GetDataLLDPE(page, region):
     os.chdir(path)
 
 
-def GetLLDPE(regionlist=('华东地区', '华南地区')):
+def GetLLDPE(regionlist=('华东地区', '华南地区', '华北地区', '华中地区', '东北地区', '西北地区', '西南地区')):
     page = GetPageLLDPE()
     for word in regionlist:
         GetDataLLDPE(page, word)
