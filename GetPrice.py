@@ -184,7 +184,7 @@ print "获取PP(均聚、共聚)中国地区(前一天的数据)..."
 # 华北
 (Header, Data, Info) = FinTableData("华北地区", Page6, 1)
 fname = "LLDPE出厂价华北" + "Table.txt"
-PrintTable(Header, Data, Info, fname)
+# PrintTable(Header, Data, Info, fname)
 # 输出表格
 Row = [0, 2, 3]
 WriteRow(fp, "华北地区", Header, 4, Data, 1, Row, Info, 4, 2)
@@ -192,7 +192,7 @@ WriteRow(fp, "华北地区", Header, 4, Data, 1, Row, Info, 4, 2)
 # 华东
 (Header, Data, Info) = FinTableData("华东地区", Page6, 1)
 fname = "LLDPE出厂价华东" + "Table.txt"
-PrintTable(Header, Data, Info, fname)
+# PrintTable(Header, Data, Info, fname)
 # 输出表格
 Row = [0, 8, 9]
 WriteRow(fp, "华东地区", Header, 4, Data, 1, Row, Info, 4, 2)
@@ -200,7 +200,7 @@ WriteRow(fp, "华东地区", Header, 4, Data, 1, Row, Info, 4, 2)
 # 华南
 (Header, Data, Info) = FinTableData("华南地区", Page6, 1)
 fname = "LLDPE出厂价华南" + "Table.txt"
-PrintTable(Header, Data, Info, fname)
+# PrintTable(Header, Data, Info, fname)
 # 输出表格
 Row = [0, 2, 3, 6, 8, 9]
 WriteRow(fp, "华南地区", Header, 4, Data, 1, Row, Info, 4, 2)
@@ -257,7 +257,7 @@ WriteRow(fp, "华北地区", Header, 4, Data, 1, Row, Info, 4, 1)
 # 10.LLDPE煤化工价(华北的陕西中煤7042)
 (Header, Data, Info) = FinTableData("华北地区", Page10, 1)
 fname = "LLDPE市场价华北" + "Table.txt"
-PrintTable(Header, Data, Info, fname)
+# PrintTable(Header, Data, Info, fname)
 # 输出表格
 Row = [3]
 WriteRow(fp, "华北地区", Header, 4, Data, 1, Row, Info, 4, 1)
