@@ -11,3 +11,7 @@ print unicode('正在获取PP粉市场信息...', "utf-8")
 GetPP()
 
 sleep(3)
+
+region = ("中国地区")
+for word in region:
+    print word

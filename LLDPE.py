@@ -8,8 +8,8 @@ import re
 from GetPageData import *
 
 OilchemUrlBase = r"http://www.oilchem.net/"
-OilchemUser = []
-OilchemPass = []
+OilchemUser = "rockyeah"
+OilchemPass = "abc123"
 
 
 # Get 隆众石化 page data
