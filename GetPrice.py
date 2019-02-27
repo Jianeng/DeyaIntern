@@ -25,8 +25,8 @@ from TableFunction import *
 
 # 账号登录信息
 OilchemUrlBase = r"http://www.oilchem.net/"
-OilchemUser = "rockyeah"
-OilchemPass = "abc123"
+OilchemUser = XXXXX
+OilchemPass = XXXXX
 
 # 数据网址
 Dm = r"http://price.oilchem.net/dmPrice/listProduct.lz?"
